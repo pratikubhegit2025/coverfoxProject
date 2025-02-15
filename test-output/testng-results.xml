@@ -32,12 +32,12 @@
       <![CDATA[Closing Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-11-19T09:53:25 IST" name="Default suite" finished-at="2024-11-19T09:53:50 IST" duration-ms="25496">
+  <suite started-at="2025-01-31T15:52:46 IST" name="Default suite" finished-at="2025-01-31T15:53:20 IST" duration-ms="34259">
     <groups>
     </groups>
-    <test started-at="2024-11-19T09:53:25 IST" name="Default test" finished-at="2024-11-19T09:53:50 IST" duration-ms="25496">
+    <test started-at="2025-01-31T15:52:46 IST" name="Default test" finished-at="2025-01-31T15:53:20 IST" duration-ms="34259">
       <class name="coverFoxTest.TC1234_CoverFox_ValidateBannerCount">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:coverFoxTest.TC1234_CoverFox_ValidateBannerCount@1e1a0406]" started-at="2024-11-19T09:53:25 IST" name="openApplication" finished-at="2024-11-19T09:53:37 IST" duration-ms="12518" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:coverFoxTest.TC1234_CoverFox_ValidateBannerCount@1e1a0406]" started-at="2025-01-31T15:52:46 IST" name="openApplication" finished-at="2025-01-31T15:53:00 IST" duration-ms="13646" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Launching Browser]]>
@@ -47,7 +47,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method is-config="true" signature="enterDetails()[pri:0, instance:coverFoxTest.TC1234_CoverFox_ValidateBannerCount@1e1a0406]" started-at="2024-11-19T09:53:37 IST" name="enterDetails" finished-at="2024-11-19T09:53:47 IST" duration-ms="10175" status="PASS">
+        <test-method is-config="true" signature="enterDetails()[pri:0, instance:coverFoxTest.TC1234_CoverFox_ValidateBannerCount@1e1a0406]" started-at="2025-01-31T15:53:00 IST" name="enterDetails" finished-at="2025-01-31T15:53:17 IST" duration-ms="17610" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicking on gender button]]>
@@ -66,7 +66,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- enterDetails -->
-        <test-method signature="valiadatePolicyCount()[pri:0, instance:coverFoxTest.TC1234_CoverFox_ValidateBannerCount@1e1a0406]" started-at="2024-11-19T09:53:47 IST" name="valiadatePolicyCount" finished-at="2024-11-19T09:53:48 IST" duration-ms="1109" status="PASS">
+        <test-method signature="valiadatePolicyCount()[pri:0, instance:coverFoxTest.TC1234_CoverFox_ValidateBannerCount@1e1a0406]" started-at="2025-01-31T15:53:17 IST" name="valiadatePolicyCount" finished-at="2025-01-31T15:53:19 IST" duration-ms="1141" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Getting policy count]]>
@@ -76,7 +76,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- valiadatePolicyCount -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:coverFoxTest.TC1234_CoverFox_ValidateBannerCount@1e1a0406]" started-at="2024-11-19T09:53:48 IST" name="closeApplication" finished-at="2024-11-19T09:53:50 IST" duration-ms="1620" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:coverFoxTest.TC1234_CoverFox_ValidateBannerCount@1e1a0406]" started-at="2025-01-31T15:53:19 IST" name="closeApplication" finished-at="2025-01-31T15:53:20 IST" duration-ms="1806" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Closing Browser]]>

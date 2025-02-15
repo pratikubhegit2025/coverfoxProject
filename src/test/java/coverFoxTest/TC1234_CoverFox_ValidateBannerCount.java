@@ -51,14 +51,14 @@ healthPlanPage.clickOnNextButton();
 logger.info("Clicking on Next button");
 
 Thread.sleep(1000);
-memberDetailsPage.handleAgeDropDown(Utility.readDataFromExcel(excelpath,sheetName, 0, 0));
+memberDetailsPage.handleAgeDropDown(Utility.readDataFromExcel(excelpath,sheetName, 1, 0));
 logger.info("Selecting age");
 memberDetailsPage.clickOnNextButton();
 logger.info("Clicking on next button");
 Thread.sleep(1000);
-addressDetailsPage.enterPinCode(Utility.readDataFromExcel(excelpath,sheetName, 0, 1));
+addressDetailsPage.enterPinCode(Utility.readDataFromExcel(excelpath,sheetName, 1, 1));
 logger.info("Entering Pincode");
-addressDetailsPage.enterMobNum(Utility.readDataFromExcel(excelpath,sheetName, 0, 2));
+addressDetailsPage.enterMobNum(Utility.readDataFromExcel(excelpath,sheetName, 1, 2));
 logger.info("Entering mobile number");
 addressDetailsPage.clickOnContinueButton();
 logger.info("Clicking on Continue button");

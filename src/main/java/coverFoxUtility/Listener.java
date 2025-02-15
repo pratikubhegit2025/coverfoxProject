@@ -17,8 +17,8 @@ try {
 Reporter.log("Taking screenshot", true);
 Utility.takeScreenShot(driver, result.getName());
 } catch (IOException e) {
-// TODO Auto-generated catch block
 e.printStackTrace();
 }
 }
+
 }
