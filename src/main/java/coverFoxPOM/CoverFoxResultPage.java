@@ -38,6 +38,7 @@ System.out.println("Plan list number is "+planListNumber);
 if(resultNumber==planListNumber)
 {
 System.out.println("results are matching TC is passed");
+System.out.println("Testing Finished");
 }
 else {
 System.out.println("results are not matching TC is Failed");
