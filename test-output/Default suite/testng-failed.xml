@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="coverFoxTest.TC1234_CoverFox_ValidateBannerCount">
+      <class name="ergo.NewTest1">
         <methods>
-          <include name="closeApplication"/>
-          <include name="enterDetails"/>
-          <include name="valiadatePolicyCount"/>
-          <include name="openApplication"/>
+          <include name="search"/>
+          <include name="enterLeadNumber"/>
+          <include name="search2"/>
         </methods>
-      </class> <!-- coverFoxTest.TC1234_CoverFox_ValidateBannerCount -->
+      </class> <!-- ergo.NewTest1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

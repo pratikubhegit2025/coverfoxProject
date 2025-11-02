@@ -30,17 +30,17 @@ public int getCountFromBanner()
 public void validateResult()
 {
 	
-//String resultInString = resultText.getText().substring(0, 2);
-//int resultNumber = Integer.parseInt(resultInString);
-//int planListNumber = planList.size();
-//System.out.println("Result number is "+resultNumber);
-//System.out.println("Plan list number is "+planListNumber);
-//if(resultNumber==planListNumber)
-//{
-//System.out.println("results are matching TC is passed");
-//}
-//else {
-//System.out.println("results are not matching TC is Failed");
-//}
+String resultInString = resultText.getText().substring(0, 2);
+int resultNumber = Integer.parseInt(resultInString);
+int planListNumber = planList.size();
+System.out.println("Result number is "+resultNumber);
+System.out.println("Plan list number is "+planListNumber);
+if(resultNumber==planListNumber)
+{
+System.out.println("results are matching TC is passed");
+}
+else {
+System.out.println("results are not matching TC is Failed");
+}
 }
 }

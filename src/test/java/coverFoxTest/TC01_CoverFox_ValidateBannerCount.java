@@ -16,7 +16,7 @@ import coverFoxPOM.CoverFoxHomePage;
 import coverFoxPOM.CoverFoxMemberDetailsPage;
 import coverFoxPOM.CoverFoxResultPage;
 import coverFoxUtility.Utility;
-public class TC1234_CoverFox_ValidateBannerCount extends Base {
+public class TC01_CoverFox_ValidateBannerCount extends Base {
 CoverFoxHomePage homePage;
 CoverFoxHealthPlanPage healthPlanPage;
 CoverFoxMemberDetailsPage memberDetailsPage;
@@ -30,7 +30,7 @@ public static org.apache.log4j.Logger logger; //add log4j and slf4j dependencies
 @BeforeClass
 public void openApplication() throws IOException {
 launchBrowser();
-logger = org.apache.log4j.Logger.getLogger("8th_June_CoverFox");
+logger = org.apache.log4j.Logger.getLogger("CoverFox_Test 2025");
 PropertyConfigurator.configure("log4j (1).properties");
 logger.info("Opening application");
 
