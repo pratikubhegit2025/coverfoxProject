@@ -22,10 +22,25 @@ public int getCountFromText() {
 
 public int getCountFromBanner()
 {
-	
-	Reporter.log("Getting policy count from displayed");
-	int countFromBanner = planList.size();
-	return countFromBanner;
+    Reporter.log("Getting policy count from displayed");
+    int countFromBanner = planList.size();
+    return countFromBanner;
+}
+
+/**
+ * Robust insurance count reader — extracts the leading number from result text.
+ * Handles single-digit ("5 matching...") and multi-digit ("12 matching...") counts.
+ * Use this in new test cases instead of getCountFromText().
+ */
+public int getInsuranceCount()
+{
+    Reporter.log("Getting insurance count from result header");
+    String fullText = resultText.getText().trim();           // e.g. "12 matching Health Insurance plans"
+    String countStr = fullText.split(" ")[0].trim();        // first word = the number
+    int count = Integer.parseInt(countStr);
+    System.out.println("[Result] Insurance count from text  : " + count);
+    System.out.println("[Result] Insurance cards on page    : " + planList.size());
+    return count;
 }
 public void validateResult()
 {

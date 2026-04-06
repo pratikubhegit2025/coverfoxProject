@@ -1,14 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-	<listeners>
-		<listener class-name="coverFoxUtility.Listener"></listener>
-	</listeners>
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="coverFoxTest.TC01_CoverFox_ValidateBannerCount"/>
-       <class name="coverFoxTest.TC02_CoverFox_ValidateTotalPremium"/>
-       
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+<suite name="CoverFox Test Suite">
+
+    <listeners>
+        <listener class-name="coverFoxUtility.Listener"></listener>
+    </listeners>
+
+    <!-- ============================================================ -->
+    <!-- Existing Tests                                               -->
+    <!-- ============================================================ -->
+    <test thread-count="1" name="TC01 - Validate Banner Count">
+        <classes>
+            <class name="coverFoxTest.TC01_CoverFox_ValidateBannerCount"/>
+        </classes>
+    </test>
+
+    <test thread-count="1" name="TC02 - Validate Total Premium">
+        <classes>
+            <class name="coverFoxTest.TC02_CoverFox_ValidateTotalPremium"/>
+        </classes>
+    </test>
+
+    <!-- ============================================================ -->
+    <!-- New AI-Enhanced & Combination Tests                          -->
+    <!-- ============================================================ -->
+    <test thread-count="1" name="TC03 - Validate Insurance Count By Age">
+        <classes>
+            <class name="coverFoxTest.TC03_CoverFox_ValidateInsuranceCountByAge"/>
+        </classes>
+    </test>
+
+    <test thread-count="1" name="TC04 - Validate Insurance Count By Gender">
+        <classes>
+            <class name="coverFoxTest.TC04_CoverFox_ValidateInsuranceCountByGender"/>
+        </classes>
+    </test>
+
+    <test thread-count="1" name="TC05 - Validate Insurance Combinations">
+        <classes>
+            <class name="coverFoxTest.TC05_CoverFox_ValidateInsuranceCombinations"/>
+        </classes>
+    </test>
+
+</suite>

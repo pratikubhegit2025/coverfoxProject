@@ -1,1 +1,15 @@
 /target/
+
+# Auto-generated test output and logs
+test-output/
+Logs/
+Screenshot/
+
+# Claude AI personal config
+.claude/
+
+# IDE files
+.classpath
+.project
+.settings/
+*.class
