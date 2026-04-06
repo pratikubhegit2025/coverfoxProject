@@ -60,6 +60,15 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.13.0</version>
         </plugin>
+        <!-- exec-maven-plugin: allows running CoverFoxTestAgent via mvn exec:java -->
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>exec-maven-plugin</artifactId>
+          <version>3.3.0</version>
+          <configuration>
+            <mainClass>ai.CoverFoxTestAgent</mainClass>
+          </configuration>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>

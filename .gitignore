@@ -5,8 +5,10 @@ test-output/
 Logs/
 Screenshot/
 
-# Claude AI personal config
+# Claude AI — exclude personal memory, but share team skills
 .claude/
+!.claude/commands/
+!.claude/commands/*.md
 
 # IDE files
 .classpath
